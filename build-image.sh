@@ -7,8 +7,8 @@
 cd $(dirname $0)
 
 ### build the image
-docker build -t 32bit/ubuntu-upstart:14.04 .
+docker build -t 32bit/ubuntu-upstart:14.04-armhf .
 
 # ### push image to Docker Hub
-# docker push 32bit/ubuntu-upstart:14.04
+# docker push 32bit/ubuntu-upstart:14.04-armhf
 
